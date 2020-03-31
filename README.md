@@ -26,3 +26,6 @@ The controller determines which action method to execute. MvcHandler uses IContr
 After controller gets instantiated ActionInvoker will determines which Action method need to execute. ActionNameSelectorAttribute and ActionMethodSelectorAttribute methods used to select action method. The action method receives user input then executes the result and returning a result type to view. 
 
 The result type can be ViewResult, RedirectToRouteResult, RedirectResult, ContentResult, JsonResult, FileResult, and EmptyResult. At last the view has been render to the browser as response.
+
+## References
+[dotnet helpers.com](https://dotnet-helpers.com/mvc/asp-net-mvc-request-life-cycle/)
